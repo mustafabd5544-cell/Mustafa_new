@@ -1,13 +1,16 @@
 import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import Categories from "./components/Categories";
 
-export default function App() {
+function App() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen bg-gray-50">
       <NavBar />
-      <Hero />
-      <Categories />
-    </main>
+      <main className="p-6">
+        <h1 className="text-3xl font-bold text-center text-gray-800">
+          مرحباً بك في متجر قطع غيار السيارات
+        </h1>
+      </main>
+    </div>
   );
 }
+
+export default App;
