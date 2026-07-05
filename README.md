@@ -6,7 +6,7 @@ This template includes built-in detection for missing CSS variables between your
 
 - **CSS Variable Detection**: Automatically detects if CSS variables referenced in `tailwind.config.cjs` are defined in `src/index.css`
 - **Enhanced Linting**: Includes ESLint, Stylelint, and custom CSS variable validation
-- **Shadcn/ui**: Pre-configured with all Shadcn components
+- **Shadcn/ui**: Pre-configured with all Shadcn componentsس
 - **Modern Stack**: Vite + React + TypeScript + Tailwind CSS
 
 ## Available Scripts
